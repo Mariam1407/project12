@@ -1,0 +1,32 @@
+[
+    {
+        "id":"1",
+        "image":"images/image-Italia.webp",
+        "title":"Italy",
+        "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, debitis, ut doloremque, neque repudiandae non quia cumque doloribus inventore architecto animi et praesentium? Incidunt esse illo omnis consequuntur ipsam?",
+        "price":"Price 900$"
+    },
+    {
+        "id":"2",
+        "image":"images/image-Spain.jpg",
+        "title":"Spain",
+        "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, debitis, ut doloremque, neque repudiandae non quia cumque doloribus inventore architecto animi et praesentium? Incidunt esse illo omnis consequuntur ipsam?",
+        "price":"Price 800$"
+    },
+    {
+        "id":"3",
+        "image":"images/image-France.jpg",
+        "title":"France",
+        "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, debitis, ut doloremque, neque repudiandae non quia cumque doloribus inventore architecto animi et praesentium? Incidunt esse illo omnis consequuntur ipsam?",
+        "price":"Price 700$"
+    },
+    {
+        "id":"4",
+        "image":"images/image-Greece.jpg",
+        "title":"Greece",
+        "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, debitis, ut doloremque, neque repudiandae non quia cumque doloribus inventore architecto animi et praesentium? Incidunt esse illo omnis consequuntur ipsam?",
+        "price":"Price 600$"
+    }
+
+]
+
