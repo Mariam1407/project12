@@ -1,0 +1,20 @@
+<p class="id"></p>
+<script>
+    // მაგალითი გვერდზე გადასვლის დეტალურის
+    const getId = new URLSearchParams(window.location.search).get('id');
+    const cardContainer = document.getElementById('card-container');
+    const pId = document.querySelector('.id');
+    pId.textContent = getId; 
+    const result = [];
+    fetch('./card.json').then(() => {
+        fetch('./card.json').then(response => response.json()).then(data => {
+            data.forEach(card => {
+                if (card.id == getId) {
+                    console.log(card.image, card.title, card.description, card.price);
+                    pId.textContent = card.title;
+                    cardContainer.appendChild(cardDiv);
+                }
+            })
+        })
+    })
+</script>
